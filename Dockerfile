@@ -1,5 +1,5 @@
-FROM debian:jessie
-MAINTAINER David Personette <dperson@dperson.com>
+FROM resin/rpi-raspbian:jessie
+MAINTAINER Miguel Gonzalez <scenting@gmail.com>
 
 # Install transmission
 RUN export DEBIAN_FRONTEND='noninteractive' && \
